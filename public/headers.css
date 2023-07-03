@@ -1,0 +1,150 @@
+* {
+  font-family: cursive;
+}
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+
+.artikel2 > a{
+ width: 95%;
+ height: 95%;
+ display: flex;
+ align-items: center;
+ gap: 15px;
+
+
+}
+
+
+.artikel2{
+  text-align: center ;
+  padding: 10px 0 10px 0;
+  font-family: cursive;
+
+  
+}
+
+.artikel2 img {
+
+  border-radius: 10px;
+  max-width: 50%;
+  height: auto;
+}
+#artikel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+}
+h1 {
+  color: #2b83ea;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.artikel > a{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ gap: 15px;
+color:#2b83ea;
+
+}
+
+
+.artikel{
+  text-align: center ;
+  padding: 10px 0 10px 0;
+ 
+  
+}
+
+.artikel img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pagination {
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+}
+
+.pagination > li {
+  display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.5;
+  color: #0275d8;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .pager {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination .pager .active a {
+  font-weight: bold;
+}
+
+.pagination .pager a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination .pager a:hover {
+  background-color: #eee;
+}
+
